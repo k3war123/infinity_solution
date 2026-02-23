@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted } from "vue";
-import NavBar from "@/components/NavBar.vue";
+import NavBar from "@/components/Navbar.vue";
 import AppFooter from "@/components/Apfooter.vue";
 import HomeSection from "@/view/HomeSection.vue";
 import AboutSection from "@/view/AboutSection.vue";
