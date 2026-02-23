@@ -2,13 +2,13 @@
 import { onMounted } from "vue";
 import Navbar from "@/components/Navbar.vue";
 import Appfooter from "@/components/Appfooter.vue";
-import HomeSection from "@/view/HomeSection.vue";
+import HomeSection from "@/view/Homesection.vue";
 import AboutSection from "@/view/AboutSection.vue";
-import ServicesSection from "@/view/ServicesSection.vue";
-import ImpactSection from "@/view/ImpactSection.vue";
-import ProcessSection from "@/view/ProcessSection.vue";
+import ServicesSection from "@/view/Servicessection.vue";
+import ImpactSection from "@/view/Impactsection.vue";
+import ProcessSection from "@/view/Processsection.vue";
 import TeamSection from "@/view/TeamSection.vue";
-import ContactSection from "@/view/ContactSection.vue";
+import ContactSection from "@/view/Contactsection.vue";
 /* ── Scroll Reveal ── */
 const initReveal = () => {
   const io = new IntersectionObserver(
