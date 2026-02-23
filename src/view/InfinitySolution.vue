@@ -2,13 +2,13 @@
 import { onMounted } from "vue";
 import Navbar from "@/components/Navbar.vue";
 import Appfooter from "@/components/Appfooter.vue";
-import HomeSection from "@/view/Homesection.vue";
+import HomeSection from "@/view/HomeSection.vue";
 import AboutSection from "@/view/AboutSection.vue";
-import Servicessection from "@/view/Servicessection.vue";
-import Impactsection from "@/view/Impactsection.vue";
-import Processsection from "@/view/Processsection.vue";
+import ServicesSection from "@/view/ServicesSection.vue";
+import ImpactSection from "@/view/ImpactSection.vue";
+import ProcessSection from "@/view/ProcessSection.vue";
 import TeamSection from "@/view/TeamSection.vue";
-import Contactsection from "@/view/Contactsection.vue";
+import ContactSection from "@/view/ContactSection.vue";
 /* ── Scroll Reveal ── */
 const initReveal = () => {
   const io = new IntersectionObserver(
@@ -64,11 +64,11 @@ onMounted(() => {
     <Navbar />
     <HomeSection />
     <AboutSection />
-    <Servicessection />
-    <Impactsection />
-    <Processsection />
+    <ServicesSection />
+    <ImpactSection />
+    <ProcessSection />
     <TeamSection />
-    <Contactsection />
+    <ContactSection />
     <Appfooter />
   </div>
 </template>
