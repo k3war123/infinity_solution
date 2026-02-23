@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted } from "vue";
-import NavBar from "@/components/Navbar.vue";
-import AppFooter from "@/components/Apfooter.vue";
+import Navbar from "@/components/Navbar.vue";
+import Appfooter from "@/components/Appfooter.vue";
 import HomeSection from "@/view/HomeSection.vue";
 import AboutSection from "@/view/AboutSection.vue";
 import ServicesSection from "@/view/ServicesSection.vue";
@@ -61,7 +61,7 @@ onMounted(() => {
 
 <template>
   <div class="font-dm text-slate-700 bg-white overflow-x-hidden">
-    <NavBar />
+    <Navbar />
     <HomeSection />
     <AboutSection />
     <ServicesSection />
@@ -69,6 +69,6 @@ onMounted(() => {
     <ProcessSection />
     <TeamSection />
     <ContactSection />
-    <AppFooter />
+    <Appfooter />
   </div>
 </template>
