@@ -1,22 +1,27 @@
-import { createRouter, createWebHistory } from "vue-router"
-import InfinitySolution from "../view/InfinitySolution.vue"
+import { createRouter, createWebHistory } from "vue-router";
+import InfinitySolution from "@/view/InfinitySolution.vue";
 
 const routes = [
   {
     path: "/",
-    name: "home",
-    component: InfinitySolution
+    name: "Home",
+    component: InfinitySolution,
   },
   {
     path: "/solution",
-    name: "solution",
-    component: InfinitySolution
-  }
-]
+    name: "Solution",
+    component: InfinitySolution,
+  },
+  // Catch-all redirect
+  {
+    path: "/:pathMatch(.*)*",
+    redirect: "/",
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
