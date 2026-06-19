@@ -1,8 +1,5 @@
 <script setup>
-// ─── To add a photo: replace null with the imported image ───────────────────
-// Example:
-  import ahmedImg from "/src/assets/ahmed.jpg"
-//   then set  image: ahmedImg
+
 // ─────────────────────────────────────────────────────────────────────────────
 
 const team = [
@@ -12,7 +9,7 @@ const team = [
     short: "CEO",
     desc: "Visionary leader with 20+ years driving industrial engineering excellence across the MENA region.",
     icon: "bi bi-person-badge-fill",
-    image: ahmedImg,
+    image: null,
     accent: "from-teal-500 to-cyan-600",
     badgeBg: "bg-teal-50",
     badgeColor: "text-teal-700",
